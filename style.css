@@ -26,7 +26,7 @@ img{
 }
 
 .super-info-bg{
-    background: #122ab2;
+    background: #191919;
     color: white;
 }
 
@@ -36,7 +36,9 @@ img{
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding-top: 10px;
+    padding-top: 20px;
+    padding-bottom: 10px;
+    
 }
 
 .super-info p, .super-info a{
@@ -47,19 +49,26 @@ img{
     color: white;
 }
 
+
 .menu-bg{
-    background: #2c70ff;
+    background: #191919;
+    width: 100%;
+}
+
+.li-bg{
+    max-width: 960px;
+    margin: 0 auto; 
+    border-bottom: 1px solid white;
+    border-top: 1px solid white;
 }
 
 .menu {
     max-width: 960px;
-    margin: 0 auto;
     display: flex;
-    padding-top: 15px 0;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
-    padding: 1em 0;
+    padding: 0.2em 0;
 }
 
 .menu a{
@@ -76,7 +85,6 @@ img{
 .menu-nav ul{
     display: flex;
     flex-wrap: wrap;
-    
 }
 
 .menu-nav a {
@@ -86,20 +94,24 @@ img{
 }
 
 .menu-nav a:hover{
-    color: #122ab2;
+    background: #7777771f;
+    border-radius: 10%;
 }
 
-.introdução{
+.intro-bg{
+    background: #191919;
+}
+
+.introducão{
     font-size: 3em;
     line-height: 1;
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 10px;
+    color: white;
 }
 
 .sobre{ 
-    border-top: 2px solid #2c70ff;
-    border-bottom: 2px solid #2c70ff;
     max-width: 960px;
     margin: 0 auto;
     padding: 60px 0;
@@ -354,7 +366,7 @@ sup{
 
 .footer{
     display: flex;
-    background: #2c70ff;
+    background: #191919;
     height: 200px;
     align-items: center;
 }
@@ -363,7 +375,7 @@ sup{
     flex: 1;
     text-align: center;
     font-size: 2.25em;
-    color: #122ab2;
+    color: white;
 }
 
 
