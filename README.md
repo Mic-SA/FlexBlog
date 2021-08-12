@@ -1,6 +1,6 @@
 # FlexBlog
 
-https://youthful-pasteur-42a1d8.netlify.app
+https://tender-ptolemy-0fec04.netlify.app/
 
 [![NPM](https://img.shields.io/npm/l/react)](https://github.com/michel-amorim/FlexBlog/blob/master/LICENSE)
 
